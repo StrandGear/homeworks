@@ -1,0 +1,42 @@
+body{
+	background-image: url(../img/bg.uMBMT.jpg);
+	padding: 8% 12% 0;
+	font-size: 20px;
+}
+.top-paragraph{
+	font-size: 25px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.book-content{
+	text-align: left;
+}
+h3{
+	text-align: center;
+}
+.back-to-top{
+	font-size: 23px;
+}
+.main-text{
+	font-size: 20px;
+	border-style: solid;
+	border-color: brown;
+	background-color: #e8d8ae;
+	padding: 8px;
+}
+.underline{
+	text-decoration: underline white;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+.top-img{
+	width: 25%;
+}
+.additional-img{
+	width: 18%;
+}
