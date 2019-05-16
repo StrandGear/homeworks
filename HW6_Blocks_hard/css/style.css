@@ -1,0 +1,25 @@
+.box{
+	display: table;
+	width: 50%;
+	height: 40%;
+	border-style: solid;
+	border-color: brown;
+	position: absolute;
+	left:50%;
+	margin-left:-25%;
+	top:50%;
+	margin-top:-12%;
+}
+img{
+	display: inline-block;
+	padding: 10px 0;
+	position: relative;
+} 
+p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: justify;
+	padding-right: 17px;
+	font-size: 30px;
+	width: 430px;
+}
