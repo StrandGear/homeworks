@@ -4,21 +4,25 @@ body{
 .main-container{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 	width: 1600px;
+	/* border: 1px solid black; */
+	margin: 4% 8%;
 }
 .container{
-	width: 1400px;
+	width: 1170px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 5% 18%;
 	justify-content: space-around;
 	align-items: center;	
+	/* border: 1px solid black; */
 }
 img{
-	width: 280px;
-	height: 230px;
+	width: 263px;
+	height: 208px;
 }
 p{
 	font-size: 33px;
