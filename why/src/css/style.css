@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	/* border: 1px solid red; */
+	max-width: 1140px;
+	width: 96%
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.brand {
+	color: #95989a;
+	font-size: 20px;
+	font-weight: 700;
+}
