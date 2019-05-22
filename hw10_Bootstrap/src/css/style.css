@@ -1,0 +1,68 @@
+body{
+	color: #32325f;
+	font-family: sans-serif;
+}
+.navbar-brand{
+	font-size: 20px;
+	font-weight: 700;
+	color: #95989a;
+}
+.icon{
+	margin-right: 20px;
+}
+
+.main-image{
+	min-width: 100%; /* чтобы картинка не вываливалась при изменении разрешения */
+	margin-left: 70px;
+}
+.hero{
+	background-color: #f4f5f7;
+	padding-top: 73px;
+	padding-bottom: 191px;
+}
+.subtitle{
+	font-size: 20px;
+	font-weight: 400;
+}
+.title{
+	font-size: 48px;
+	font-weight: 700;
+}
+.description{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.price-tag{
+	font-size: 20px;
+	font-weight: 400;
+}
+.price{
+	font-size: 48px;
+	font-weight: 400;
+}
+.main{
+	margin-top: 159px;
+}
+.section{
+	padding-top: 90px;
+	padding-bottom: 131px;
+}
+.about-block{
+	margin-top: 100px;
+}
+.section-title{
+	font-size: 48px;
+	font-weight: 700;
+}
+.footer{
+	background: #32325f;
+	color: white;
+	padding: 78px 0 104px;
+}
+.footer a{
+	color: white;
+}
+.footer h4{
+	margin-bottom: 35px;
+}
