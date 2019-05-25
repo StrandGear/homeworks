@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$red-clr: #131313;\n$gray-clr: #666666;\n\n.footer {\n\tmargin-top: 60px;\n\tbackground-color: $red-clr;\n\tpadding: 59px 0;\n\tcolor: $gray-clr;\n\t&-policy-link {\n\t\tfont-size: 12px; }\n\tp {\n\t\tmargin-bottom: 14px; }\n\ta {\n\t\tcolor: $gray-clr;\n\t\ttext-decoration: none; }\n\ta:hover {\n\t\tcolor: #fff; }\n\tsmall {\n\t\tdisplay: block;\n\t\tmargin-top: 56px;\n\t\tline-height: 16px;\n\t\tfont-size: 10px;\n\t\tmax-width: 80%; }\n\tul {\n\t\tpadding: 0;\n\t\tlist-style: none; }\n\tul li {\n\t\tline-height: 32px; }\n\t&-contacts, &-social-links {\n\t\ttext-align: right; }\n\t&-contacts_phone {\n\t\tfont: {\n\t\t\tweight: 400;\n\t\t\tsize: 20px; }\n\t\tcolor: #009adf; }\n\t&-social-links li {\n\t\tdisplay: inline-block; }\n\t&-social-links li a {\n\t\t\t\tdisplay: inline-block;\n\t\t\t\twidth: 42px;\n\t\t\t\theight: 42px;\n\t\t\t\tbackground-color: rgba(255, 255, 255, 0.1);\n\t\t\t\ttext-align: center;\n\t\t\t\tborder-radius: 50%;\n\t\t\t\tline-height: 42px;\n\t\t\t\tmargin-left: 10px;\n\t\t\t\t-webkit-transition: all 0.2s;\n\t\t\t\ttransition: all 0.2s; }\n\t&-social-links li a:hover {\n\t\tbackground-color: rgba(255, 255, 255, 0.9);\n\t\tcolor: $red-clr; } }\n\n"
+	],
+	"names": [],
+	"mappings": ";;AAGA,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,gBAAgB,EALP,OAAO;EAMhB,OAAO,EAAE,MAAM;EACf,KAAK,EANK,OAAO;CAiDI;;;AA1CpB,AAAD,mBAAa,CAAC;EACb,SAAS,EAAE,IAAI;CAAG;;;AANpB,AAOC,OAPM,CAON,CAAC,CAAC;EACD,aAAa,EAAE,IAAI;CAAG;;;AARxB,AASC,OATM,CASN,CAAC,CAAC;EACD,KAAK,EAZI,OAAO;EAahB,eAAe,EAAE,IAAI;CAAG;;;AAX1B,AAYC,OAZM,CAYN,CAAC,AAAA,MAAM,CAAC;EACP,KAAK,EAAE,IAAI;CAAG;;;AAbhB,AAcC,OAdM,CAcN,KAAK,CAAC;EACL,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,SAAS,EAAE,GAAG;CAAG;;;AAnBnB,AAoBC,OApBM,CAoBN,EAAE,CAAC;EACF,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;CAAG;;;AAtBrB,AAuBC,OAvBM,CAuBN,EAAE,CAAC,EAAE,CAAC;EACL,WAAW,EAAE,IAAI;CAAG;;;AACpB,AAAD,gBAAU,EAAG,oBAAa,CAAC;EAC1B,UAAU,EAAE,KAAK;CAAG;;;AACpB,AAAD,sBAAgB,CAAC;EAEf,WAAM,EAAE,GAAG;EACX,SAAI,EAAE,IAAI;EACX,KAAK,EAAE,OAAO;CAAG;;;AACjB,AAAD,oBAAc,CAAC,EAAE,CAAC;EACjB,OAAO,EAAE,YAAY;CAAG;;;AACxB,AAAD,oBAAc,CAAC,EAAE,CAAC,CAAC,CAAC;EACjB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,wBAAwB;EAC1C,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,IAAI;EACjB,kBAAkB,EAAE,QAAQ;EAC5B,UAAU,EAAE,QAAQ;CAAG;;;AACzB,AAAD,oBAAc,CAAC,EAAE,CAAC,CAAC,AAAA,MAAM,CAAC;EACzB,gBAAgB,EAAE,wBAAwB;EAC1C,KAAK,EAlDG,OAAO;CAkDG"
+}
