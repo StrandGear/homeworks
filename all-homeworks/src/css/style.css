@@ -1,0 +1,40 @@
+body{
+   font-family: cursive;
+   background-image: url(https://ru.inettools.net/upload/EMDCQ75ozIhIfcytrbdcEjN9YyImFaPxueN2pTZ5/bg.Ph249.jpg);
+   color: #651B0D;
+}
+.box {
+   position: relative;
+   border-radius: 15px;
+   margin: auto;
+   width: 900px;
+   background:rgba(181, 181, 181, 0.7);
+}
+h1 {
+   text-align: center;
+   margin-top: 3%;
+   font-size: 50px;
+}
+ul {
+   list-style-type: none;
+   margin: auto 100px;
+   font-size: 30px;
+}
+a{
+   text-decoration: none;
+   color: darkgreen;   
+}
+a:hover{
+   color: goldenrod;
+}
+button{
+   background-color: rgba(46, 14, 14, 0.9);
+   border: none;
+   border-radius: 4px;
+   margin: 30px 30px 30px 700px;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+}
