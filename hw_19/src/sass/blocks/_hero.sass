@@ -1,0 +1,74 @@
+.hero
+   padding: 50px 0 0
+   background-color: $bg-color
+   &-block
+      display: flex
+   &-text
+      flex-basis: 50%  /*чтобы блок занимал половину экрана*/
+      padding-right: 100px
+      &__title
+         font-size:  41px
+         line-height: 55px
+         margin-bottom: 38px
+         +bold
+         color: $text-color
+      &__subtitle
+         display: inline-block /* без этого не работают отступы */
+         margin-bottom: 65px
+         font-size: 20px
+         +bold
+         
+   &-list
+      margin: 0
+      padding: 0
+      &__item
+         display: flex
+         align-items: center
+         margin-bottom: 24px
+         font-size: 14px
+         line-height: 1.8
+         &:last-child
+            margin-bottom: 0
+      &__image
+         width: 36px
+         height: 36px
+         border: 2px solid $main-color
+         display: flex
+         align-items: center
+         justify-content: center
+         border-radius: 50%
+         margin-right: 30px
+      &__text
+         max-width: 300px
+   &-image
+      margin-right: -50px
+@media (max-width: 1200px)
+   .hero
+      &-block
+         flex-direction: column
+      &-list
+         margin-bottom: 44px
+      &-text
+         padding-right: 10px
+@media (max-width: 768px)
+   .hero
+      &-text
+         &__title 
+            font-size: 24px
+            line-height: 1.4 /* обычно ставится такое значение если нет показателя */
+            margin-bottom: 15px
+         &__subtitle
+            font-size: 16px
+            margin-bottom: 28px
+      &-list
+         &__text
+            font-size: 12px
+         &__item
+            margin-bottom: 20px
+         &__image
+            margin-right: 15px
+@media (max-width: 400px)  
+   .hero
+      &-list  
+         &__text
+            max-width: 200px
