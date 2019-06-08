@@ -1,0 +1,48 @@
+*
+   box-sizing: border-box /* ДЛЯ ПРАВИЛЬНЫХ ОТСТУПОВ */
+body
+   +reg
+img
+   max-width: 100% /* чтобы верстка не ломалась */
+   display: block
+.container
+   width: 1170px
+   margin: auto
+@media (max-width: 1200px)
+   .container
+      width: 760px
+@media (max-width: 768px)
+   .container
+      width: 58px
+      width: 90%
+   .section
+      padding-top: 60px
+      padding-bottom: 60px
+.button
+   border-radius: 10px
+   background-color: $main-color
+   border: none
+   padding: 18px 30px
+   &:hover
+      background-color: lighten($main-color, 10%)
+      cursor: pointer /* пальчик при наведении появляется */
+.section 
+   padding: 50px 0
+   &-title 
+      text-align: center
+      font-size: 24px
+      +bold
+   &-subtitle
+      display: block /* чтобы задать ширину блока */
+      font-size: 16px;
+.input
+   border: 1px solid $border-input
+   padding: 20px 26px
+   font-size: 15px
+   border-radius: 10px
+.arrows
+   &__left, &__right
+      &:hover
+         cursor: pointer
+.error
+   border: 1px solid red 
