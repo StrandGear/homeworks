@@ -896,6 +896,7 @@ img {
   font-size: 22px;
   line-height: 1.4;
   margin-bottom: 100px;
+  max-width: 290px;
 }
 
 .contacts-block {
@@ -928,5 +929,19 @@ img {
   text-align: center;
   line-height: 20px;
   margin-right: 23px;
+}
+
+.contacts__bold {
+  font-family: 'Museo Sans Bold' , sans-serif;
+  font-weight: 700;
+  color: #333333;
+  max-width: 180px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Museo Sans Bold' , sans-serif;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
