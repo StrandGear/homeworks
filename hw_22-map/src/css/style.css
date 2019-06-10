@@ -103,6 +103,18 @@ img {
   border: 1px solid red;
 }
 
+.offer__form #username-error {
+  position: absolute;
+  margin-left: -207px;
+  margin-top: 67px;
+}
+
+.offer__form #phone-error {
+  position: absolute;
+  margin-top: 67px;
+  margin-left: -180px;
+}
+
 /* Импорт стилей шапки */
 .header {
   padding: 8px 0;
